@@ -339,37 +339,37 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: BẠN DÙNG *SỢ BỊ THƯƠNG*
+n: BẠN DÙNG *SỢ BỊ HẠI*
 
 (#act1b)
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: NÓ RẤT CÓ HIỆU QUẢ
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: Thấy chưa, con người? Tôi là sói bảo vệ trung thành của cậu!
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: Tin vào tâm hồn mình đi! Cảm xúc của bạn luôn có giá trị!
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: LÀM CHO THANH NĂNG LƯỢNG CỦA CON NGƯỜI XUỐNG KHÔNG
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: DỂ BẢO VỆ NHU CẦU VỀ THỂ CHẤT + XÃ HỘI + ĐẠO ĐỨC CỦA HỌ , BẠN CÓ THỂ DÙNG:
 
-n: FEAR OF *BEING HARMED* #harm#
+n: SỢ *BỊ HẠI* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: SỢ *KHÔNG ĐƯỢC YÊU THƯƠNG* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: VÀ SỢ *TRỞ THÀNH NGƯỜI XẤU* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
+n4: (GỢI Ý: SỬ DỤNG LỰA CHỌN ĐÁNH TRÚNG NỖI SỢ SÂU NHẤT, ĐEN TỐI NHẤT CỦA BẠN!~)
 
 h: ...
 
@@ -383,18 +383,18 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
+h: bạn biết không mình nên xem điện thoại đây
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: BẢO VỆ CON NGƯỜI CỦA BẠN
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: KHỎI THẾ GIỚI. KHỎI NGƯỜI KHÁC. KHỎI CHÍNH HỌ.
 
-n: GOOD LUCK
+n: CHÚC MAY MẮN
 
 (...500)
 
@@ -408,23 +408,23 @@ n: GOOD LUCK
 
 `music('battle', {volume:0.5})`
 
-n: ROUND ONE: *FIGHT!*
+n: VÒNG MỘT: *CHIẾN!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.
+h: Huh. trang Facebook nói là có bữa tiệc lúc cuối tuần này.
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?
+b: Hình như thằng kỳ lạ đó *luôn* tổ chức bữa tiệc mỗi ngày cuối tuần?
 
 `bb({eyes:"uncertain_right"});`
 
-b: What inner void are they trying to fill? They must be deeply messed up inside!
+b: Họ cố gắng lấp cái khoảng trống nào? Họ chắc là hỗn loạn từ bên trong rồi!
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?
+h: Với lại, mình có lời ?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
