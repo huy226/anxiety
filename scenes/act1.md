@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: VÀ ĐÂY LÀ SỰ LO ÂU CỦA CON NGƯỜI
 
-n: _YOU_ ARE THE ANXIETY
+n: _BẠN_ LÀ SỰ LO ÂU
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: Này! Chúng ta quay lại đây nữa à?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: CÔNG VIỆC CỦA BẠN LÀ BẢO VỆ CON NGƯỜI KHỎI *NGUY HIỂM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: THỰC RA, CHƠI LẠI TRÒ NÀY LÀ ĐỂ HỌ VÀO *NGUY HIỂM* NGAY BÂY GIỜ
 
-n: QUICK, WARN THEM!
+n: NHANH, CẢNH BÁO HỌ ĐI!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: Con người! Nghe này, chúng ta đang gặp nguy hiểm! Người chơi...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...sẽ tra tấn chúng ta lần nữa!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...sẽ không tìm thấy được kết cục tiếp!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...sẽ thấy sự mâu thuẫn giữa cốt chuyện và game!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: Họ sẽ khiến chúng ta co lại thành quả bóng và khóc!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: Họ sẽ khiến chúng ta phá điện thoại bạn vì đưa bạn vào cơn hoảng loạn!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: Họ sẽ khiến chúng ta *KHÔNG* đấm chủ bữa tiệc!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: Họ sẽ khiến chúng ta đấm chủ bữa tiệc phản diện đồng cảm!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Ít nhất họ không khiến ta nhảy từ mái nhà xuống lần nà--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: HỌ SẼ KHIẾN TA NHẢY TỪ MÁI NHÀ XUỐNG.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: TẤT CẢ NHỮNG CHUYỆN KINH KHỦNG ĐÓ SẼ XẢY RA VỚI TA, VÀ TA SẼ--
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Đúng, câu chuyện nhìn *chung* là như nhau, nhưng mỗi chương có hai cái kết, cộng với cả những lựa chọn phân nhá--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: Người chơi sẽ thất vọng, đóng tab trình duyệt này, xoá phần mềm của chúng ta, và ta sẽ--
 
 (#act1_replay_end)
 
@@ -112,27 +112,27 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: Mâu thuẫn- gì ?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: Cốt chuyện mở rộng là cách bạn *CHỌN* để tạo ra sự hợp tác tốt đẹp với nỗi sợ của bạn,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: Nhưng chơi lại trò chơi sẽ đưa ra câu chuyện như vậy, thể hiện *LỰA CHỌN* của bạn không quan trọng,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: Nên thấy được sự mâu thuẫn giữa thông điệp và cơ chế của trò ,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: Như vậy làm sáng tỏ kết cấu của vũ trụ này,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: Và ta sẽ--
 
 (#act1_replay_end)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: CHẾTTTTTTTTTTTTTTTTT
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: OK quay lại nhân vật nào.
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (ĐỂ SỰ LO ÂU CỦA _BẠN_ BLAH BLAH BLAH GIỐNG VỚI NỖI SỢ CỦA _BẠN_ NHẤT BLAH BLAH BẠN BIẾT RỒI ĐẤY)
 
 ```
 sfx("squeak");
@@ -186,17 +186,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Ôi tuyệt, sói của tôi đã quay lại. Tuyyyyệt vời.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: CÔNG VIỆC CỦA BẠN LÀ BẢO VỆ CON NGƯỜI KHỎI *NGUY HIỂM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: TRONG THỰC TẾ, CHIẾC BÁNH KẸP ĐÓ ĐANG ĐẶT *NGUY HIỂM* CHO CẬU ẤY NGAY BÂY GIỜ
 
-n: QUICK, WARN THEM!
+n: NHANH, CẢNH BÁO ĐI!
 
 ```
 sfx("squeak");
@@ -204,21 +204,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: Con người! Nghe đây, chúng ta đang gặp nguy hiểm! Nguy hiểm là...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (HÃY THỂ HIỆN SỰ LO ÂU CỦA _BẠN_! CHỌN CÁI GIỐNG NHẤT VỚI NỖI SỢ CỦA _BẠN_ MÁCH BẢO BẠN)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Chúng ta lại ăn trưa một mình! Lần nữa!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Chúng ta không năng động lúc ăn!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Bánh trắng đó không tốt cho ta!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Bạn biết rằng cô đơn tương đương với chết sớm như khi ta hút 15 điếu thuốc lá một ngày?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,17 +237,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Ờ, cảm ơn vì đã trích dẫn nguồn của bạn nhưng--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: Vậy nên nếu ta không bắt chuyện với ai đó *ngay bây giờ* ta sẽ-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: CHẾTTTTTTTTTTTTTTTTT
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: BẠN DÙNG *SỢ KHÔNG ĐƯỢC YÊU THƯƠNG*
 
 (#act1b)
 
@@ -271,27 +271,27 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: Lấy máy ra và làm chút việc ngay bây giờ!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: Ờ, Mình không thích vụn bánh rơi vào bàn phí--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: Nếu ta không góp phần của mình cho cơ thể của xã hội thì ta sẽ là kí sinh trùng của xã hội!
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: Cơ thể của xã hội sẽ tới bác sĩ của xã hội để chữa trị để giết kí sinh trùng của xã hội rồi ta sẽ--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: CHẾTTTTTTTTTTTTTTTTT
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: BẠN DÙNG *SỢ TRỞ THÀNH NGƯỜI XẤU*
 
 (#act1b)
 
@@ -315,18 +315,18 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: Hình như thông tin này đã được sửa--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
+b: Lúa mì chế biến sẽ đóng đường trong máu nên họ sẽ cắt đi các chi của ta và ta sẽ-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: CHẾTTTTTTTTTTTTTTTTT
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,7 +339,7 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: BẠN DÙNG *SỢ BỊ THƯƠNG*
 
 (#act1b)
 
