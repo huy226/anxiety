@@ -617,14 +617,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: God, it feels like the world's burning, isn't it?
+b: Trời, nó cảm thấy như thế giới đang cháy, đúng không?
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: It feels like it's all ending, like everything's dying and we're doomed and there's nothing we can do about it.
+b: Nó cảm thấy như đó tất cả là kết thúc, như mọi thứ chết dần và ta chết và ta không thể làm gì với nó.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -635,7 +635,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Let's retweet that story!
+b: Hãy tweet lại tin tức đó!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -653,11 +653,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Okay I'll retweet it just please be quiet!
+h: Được rồi mình sẽ tweet lại chỉ cần làm ơn im!
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: Screw it, let's look at Snapchat.
+h: Bỏ qua đi, lên Snapchat .
 
 (#act1e)
 
@@ -666,35 +666,35 @@ h: Screw it, let's look at Snapchat.
 
 `bb({eyes:"fear"});`
 
-b: It's a subtweet! A sneaky, sneaky subtweet!
+b: Nó là một phụ đề! Một phụ đề thầm kín!
 
 `hong({eyes:"annoyed"});`
 
-h: It's probably not?
+h: Nó có lẽ là không?
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but what if they're all talking behind our back
+b: nhưng chuyện gì nếu họ đều nói sau lưng chúng ta
 
-h: They're n--
+h: Họ kh--
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
-b: IN FRONT OF OUR BACK
+b: TRƯỚC LƯNG CHÚNG TA
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: I d--
+h: Mình k--
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but *what if*
+b: nhưng *nếu*
 
-h: S--
+h: T--
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: *what if*
+b: *nếu*
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -719,7 +719,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: được- RỒI, thử lên Snapchat.
 
 (#act1e)
 
@@ -727,7 +727,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Heh ya that's cute, just retweeted it, I thi--
+h: Nó đáng yêu vậy trời, chỉ cần tweet lại nó, mình ng--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -735,7 +735,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: MÈO KHÔNG THỂ TIÊU HOÁ SỮA VÀ TA LÀ NGƯỜI KHỦNG KHIẾP VÌ THƯỞNG THỨC HÀNH HẠ ĐỘNG VẬT
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -752,7 +752,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: được- RỒI, thử lên Snapchat.
 
 (#act1e)
 
@@ -760,7 +760,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: Huh, photos from yesterday night. So *that's* what those weekly parties are like.
+h: Huh, ảnh từ tối qua. Vậy *đó là* bữa tiệc hàng tuần là thế.
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -772,29 +772,29 @@ h: Huh, photos from yesterday night. So *that's* what those weekly parties are l
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Oof, looks way too crowded for my anxiety.
+h: Oof, trông quá đông cho sự lo âu rồi.
 
-h: Maybe I shouldn't have said yes to the invite?
+h: Có thể mình không nên nói có cho lời mời?
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Change our answer? Like a jerk?!](#act1e_yes_dontchange)
+[Đổi đáp án? Như là chó?!](#act1e_yes_dontchange)
 
-[Change our answer! It's too crowded!](#act1e_yes_changetono)
+[Đổi đáp án đi! Nó quá đông!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Đúng họ chắc đang phụ đề mình.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Đợi đã ta tweet lại mà không kiểm tra thông tin.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Bạn biết không, bạn có một tư thế xấu?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -884,26 +884,26 @@ h: Shut up shut up I'll change my answer to no! God!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Hm... nó trông cũng vui đó.
 
-h: Maybe I shouldn't have said no to the invite?
+h: Có thể mình không nên nói không về lời mời?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Change our answer? Like a jerk?!](#act1e_no_dontchange)
+[Đổi đáp án? Như là chó?!](#act1e_no_dontchange)
 
-[Change our answer! Don't die alone!](#act1e_no_changetoyes)
+[Đổi đáp án đi! Đừng chết một mình!](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Đúng họ chắc đang phụ đè mình.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Đợi đã ta tweet lại mà không kiểm tra thông tin.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Bạn biết không, bạn đang có một tư thế xấu?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_no_dontchange
@@ -1066,17 +1066,17 @@ h: Why are you like this?!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Hm... nó trông cũng vui đó.
 
-h: Maybe I shouldn't have ignored the invite?
+h: Có lẽ mình không nên bỏ qua lời mời đó?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Keep ignoring, we're still party poopers.](#act1e_ignore_continue)
+[Tiếp tục bỏ qua, ta vẫn là kẻ phá bữa tiệc.](#act1e_ignore_continue)
 
-[Actually, say yes.](#act1e_ignore_changetoyes)
+[Thật ra, nói có đi.](#act1e_ignore_changetoyes)
 
-[Actually, say no.](#act1e_ignore_changetono)
+[Thật ra, nói không đi.](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
