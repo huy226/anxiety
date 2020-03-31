@@ -804,14 +804,14 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: They were counting on us to come and now we're betraying their trust? Do you wanna die alone?!
+b: Họ đang trông đợi chúng ta tới và giờ chúng ta phản bội niềm tin của họ? Bạn có muốn chết một mình không!?
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: MƯỜI LĂM. ĐIẾU THUỐC.
 {{/if}}
 
 {{if _.whalepoop}}
-b: WHALE. POOP.
+b: CÁ VOI. PHÂN.
 {{/if}}
 
 ```
@@ -826,7 +826,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as yes!
+h: Im đi, im đi, tôi sẽ tiếp tục nói có!
 
 (#act1f)
 
@@ -837,7 +837,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Don't you know about human stampedes?
+b: Bạn không biết về việc chạy loạn của con người à?
 
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
@@ -845,7 +845,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: In 2003 a Rhode Island nightclub had a fire and the panic made people jam the exits so 100 people burned to death-
+b: Vào năm 2003, một câu lạc bộ đêm tại đảo Rhode bị cháy và sự hoảng loạn khiến người ta mắc kẹt ở lối thoát nên 100 người đã bị thiêu rụi-
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -853,14 +853,14 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DO YOU WANT THAT TO HAPPEN TO US-
+b: BẠN MUỐN ĐIỀU ĐÓ XẢY ĐẾN VỚI CHÚNG TA À-
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY N-
+b: NÓI KHÔNG NÓI KHÔNG NÓI KHÔNG NÓI KHÔNG NÓI KHÔNG NÓI KHÔNG N-
 
 
 ```
@@ -876,7 +876,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to no! God!
+h: Im đi im đi tôi sẽ đổi câu trả lời thành không! Chúa ơi!|
 
 (#act1f)
 
@@ -910,9 +910,9 @@ h: Có thể mình không nên nói không về lời mời?
 
 `bb({eyes:"anger"})`
 
-b: Everybody was counting on us!
+b: Tất cả mọi người đang kì vọng vào chúng ta!
 
-b: ...to leave them alone and let them have a nice party without a horrible disgusting {{if _.whitebread}}white-bread-munching{{/if}} creep like u--
+b: ...mặc kệ họ và để họ có một bữa tiệc vui vẻ mà không có sự ghê tởm kinh hoàng {{if _.whitebread}}white-bread-munching{{/if}} creep like u--
 
 
 ```
@@ -928,7 +928,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as no!
+h: Im đi im đi tôi sẽ giữ câu trả lời là không!
 
 (#act1f)
 
@@ -939,7 +939,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Chronic loneliness increases our cortisol levels as well as risk for cardiovascular disease and stroke!
+b: Sự cô đơn mãn tính làm tăng mức cortisol cũng như nguy cơ mắc bệnh tim mạch và đột quỵ!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -949,7 +949,7 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: MƯỜI LĂM. ĐIẾU THUỐC.
 {{/if}}
 
 ```
@@ -958,7 +958,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to yes! God!
+h: Im đi im đi tôi sẽ đổi câu trả lời thành có! Chúa ơi!|
 
 (#act1f)
 
@@ -969,7 +969,7 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: All our problematic tweets have come back to roost!
+b: Tất cả các tiếng tweet có vấn đề của chúng ta đã quay trở lại thành tiếng gáy!
 
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
